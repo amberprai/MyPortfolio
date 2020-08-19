@@ -1,0 +1,111 @@
+
+  h1 {
+    
+    margin: 3;
+    color: #dbeef0;
+    font-size: 3.5em;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+
+  h2,h3,h4,h6,h8,h9{
+    font-family: sans-serif;
+    color: #dbeef0;
+
+
+  }
+  
+  #contact-form {
+    max-width: 1208px;
+    max-width: 75.5rem;
+    margin: 0 auto;
+  }
+  #contact, label, input[name="submit"] {
+    position: relative;
+  }
+  label > span, input, textarea, button {
+    box-sizing: border-box;
+  }
+  label {
+    display: block;
+  }
+  label > span {
+    display: none;
+  }
+  input, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    font: 300 100%/1.2 Ubuntu, sans-serif;
+  }
+  input[type="text"], input[type="email"], textarea {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  input.invalid, textarea.invalid {
+    border-color: #d5144d;
+  }
+  textarea {
+    height: 5em;
+  }
+  input[type="submit"], button {
+    background: #2C3347;
+    color: #333;
+  }
+  input[type="submit"]:hover, button:hover {
+    background: #a5abbb;
+  }
+  @media screen and (min-width: 30em) {
+    #contact-form h2 {
+      margin-left: 26.3736%;
+      font-size: 2em;
+      line-height: 1.5;
+    }
+    label > span {
+      vertical-align: top;
+      display: inline-block;
+      width: 26.3736%;
+      padding: 0.5em;
+      border: 1px solid transparent;
+      text-align: right;
+    }
+    input, textarea, button {
+      width: 73.6263%;
+      line-height: 1.5;
+    }
+    textarea {
+      height: 10em;
+    }
+    input[type="submit"], button {
+      margin-left: 26.3736%;
+    }
+  }
+  @media screen and (min-width: 48em) {
+    #contact-form {
+      text-align: justify;
+      line-height: 0;
+    }
+    #contact-form:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+    #contact-form h1 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    #contact-form form, #contact-form aside {
+      vertical-align: top;
+      display: inline-block;
+      width: 65.4676%;
+      text-align: left;
+      line-height: 1.5;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #contact-form aside {
+      width: 30.9353%;
+    }
+  }
