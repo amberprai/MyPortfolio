@@ -57,12 +57,12 @@ const Work =() => {
         });
       }
     return (
-        <div style={{marginTop:"10%"}} >
+        <div style={{marginTop:"9%"}} >
         <Navbar/>
     
   
             <Container>
-           
+                <br/>
                 <h1 style={{textAlign:"center",fontSize:"55px"}}> My Work </h1>
             <hr style={{width:"60%", height:"3px",color:"white",marginLeft:"auto",marginRight:"auto"}}/>
                 

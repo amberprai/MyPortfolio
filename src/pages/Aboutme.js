@@ -51,6 +51,7 @@ const Aboutme =() => {
             <Container>
             <Row >
             <Col>
+            <br/>
             <div class="image"  >
               <a href="#"><img src={pic} alt="" /></a>
     </div>
